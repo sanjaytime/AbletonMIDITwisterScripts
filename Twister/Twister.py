@@ -253,7 +253,11 @@ class Twister(ControlSurface):
 
 		self._menu_matrix = ButtonMatrixElement([self._menu])
 		self._devices_matrix = ButtonMatrixElement([self._devices])
-	
+
+
+	def _setup_clip_control(self)
+		self._clip_control = ClipSlotComponent()
+		self._clip_control.name = 'Clip Control'
 
 	def _setup_transport_control(self):
 		self._transport = TransportComponent()
