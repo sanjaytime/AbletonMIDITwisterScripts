@@ -138,6 +138,7 @@ class Twister(ControlSurface):
 		with self.component_guard():
 			self._setup_controls()
 			self._setup_transport_control()
+			self._setup_clip_control()
 			self._setup_autoarm()
 			self._setup_mixer_control()
 			self._setup_session_control()
@@ -370,8 +371,17 @@ class Twister(ControlSurface):
 			self._mixer.selected_strip().set_arm_button(self._menu[2])
 			self._mixer.selected_strip().set_solo_button(self._menu[1])
 			
-			self._transport.set_play_button(self._menu[4])
-			self._transport.set_stop_button(self._menu[5])
+
+			### USING CLIP CONTROL OVER TRANSPORT CONTROL FOR NOW.  FOCUS IS LIVE DJ-ING
+			self._clip_control.set_launch_button(self._menu[4])
+			self._clip_control.set_stopped_value(self._menu[5])
+			self._clip_control.set_record_button_value(self.menu[6])
+
+			# self._transport.set_play_button(self._menu[4])
+			# self._transport.set_stop_button(self._menu[5])
+
+
+
 			#self._transport.set_loop_button(self._menu[4])
 			#self._transport.set_overdub_button(self._menu[3])
 			#self._transport.set_seek_buttons(self._menu[6], self._menu[5])
