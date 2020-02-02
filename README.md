@@ -1,2 +1,2 @@
 # AbletonMIDITwisterScripts
-Some custom MIDI scripts for the DJTT twister controller in Ableton
+Some custom MIDI scripts for the DJTT twister controller in Ableton.  Credit to [deejaypaddy](https://soundcloud.com/deejaypaddy) for sharing the original version of this script on the [DJ Tech Tools website](https://maps.djtechtools.com/mappings/2702).  Also, credit to [Julian Bayle](https://julienbayle.studio/) for providing the [decompiled midi scripts](https://github.com/gluon/AbletonLive10.1_MIDIRemoteScripts) for live 10.  
