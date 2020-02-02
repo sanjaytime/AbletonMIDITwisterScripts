@@ -27,8 +27,8 @@ OHM_DEVICE = [16, 17, 18, 19, 20, 21, 22, 23]
 
 CROSSFADER = 89		#single
 
-NAV_L = 9
-NAV_R = 12
+NAV_L = 5
+NAV_R = 8
 #SHIFT_L = 64		#single
 
 #SHIFT_R = 72		#single
